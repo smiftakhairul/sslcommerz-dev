@@ -123,4 +123,9 @@ class SSLCommerz extends SSLCommerzUtil
             ];
         }
     }
+
+    public function formatCheckoutResponse($response)
+    {
+        return $this->apiFormatResponseCheckout($response);
+    }
 }

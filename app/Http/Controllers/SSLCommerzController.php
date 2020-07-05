@@ -151,7 +151,7 @@ class SSLCommerzController extends Controller
 
         $response = $sslcommerz->initPayment($sslcommerz);
 
-        echo json_encode(['status' => 'success', 'data' => $response['GatewayPageURL'], 'logo' => $response['storeLogo']]);
+        echo $sslcommerz->formatCheckoutResponse($response);
     }
 
     public function success(Request $request)

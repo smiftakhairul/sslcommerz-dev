@@ -35,6 +35,24 @@ trait SSLCommerzService
         return $format_response;
     }
 
+    public function apiFormatResponseCheckout($response)
+    {
+        $sslcz = $response;
+        $format_response = null;
+
+        if ($this->getPaymentDisplayType() == 'checkout') {
+            if (isset($sslcz['GatewayPageURL']) && !empty($sslcz['GatewayPageURL'])) {
+                $format_response = json_encode(['status' => 'success', 'data' => $sslcz['GatewayPageURL'], 'logo' => $sslcz['storeLogo']]);
+            } else {
+                $format_response = json_encode(['status' => 'fail', 'data' => null, 'message' => "JSON Data parsing error!"]);
+            }
+        } else {
+            $format_response = $sslcz;
+        }
+
+        return $format_response;
+    }
+
     public function hash_verify(array $data)
     {
         if (empty($data)

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a075f6ce-3d85-4b45-9ab0-4507303bc6c3" name="Default Changelist" comment="" />
+    <list default="true" id="a075f6ce-3d85-4b45-9ab0-4507303bc6c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" beforeDir="false" afterPath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php" beforeDir="false" afterPath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="153" column="123" selection-start-line="153" selection-start-column="123" selection-end-line="153" selection-end-column="123" />
+            <state relative-caret-position="267">
+              <caret line="149" column="52" lean-forward="true" selection-start-line="149" selection-start-column="52" selection-end-line="149" selection-end-column="52" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -26,10 +31,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+            <state relative-caret-position="420">
+              <caret line="128" column="59" lean-forward="true" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
               <folding>
                 <element signature="e#35#71#0#PHP" expanded="true" />
               </folding>
@@ -40,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="148">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -81,7 +98,6 @@
         <option value="$PROJECT_DIR$/resources/views/sslcommerz/checkout.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/config/sslcommerz.php" />
-        <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestValidation.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php" />
@@ -89,7 +105,9 @@
         <option value="$PROJECT_DIR$/package/SSLCommerz/composer.json" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" />
+        <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -292,15 +310,16 @@
       <workItem from="1591076142948" duration="1809000" />
       <workItem from="1591160806880" duration="4121000" />
       <workItem from="1592991791529" duration="22000" />
-      <workItem from="1593923826213" duration="1801000" />
+      <workItem from="1593923826213" duration="3179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80673000" />
+    <option name="totallyTimeSpent" value="82051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
@@ -484,30 +503,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="128" column="59" lean-forward="true" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
+          <folding>
+            <element signature="e#35#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="153" column="123" selection-start-line="153" selection-start-column="123" selection-end-line="153" selection-end-column="123" />
+        <state relative-caret-position="267">
+          <caret line="149" column="52" lean-forward="true" selection-start-line="149" selection-start-column="52" selection-end-line="149" selection-end-column="52" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-          <folding>
-            <element signature="e#35#71#0#PHP" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
