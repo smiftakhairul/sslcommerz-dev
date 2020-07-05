@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a075f6ce-3d85-4b45-9ab0-4507303bc6c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" beforeDir="false" afterPath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php" beforeDir="false" afterPath="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +14,27 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+            <state relative-caret-position="119">
+              <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -29,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="833">
               <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding>
                 <element signature="e#35#71#0#PHP" expanded="true" />
@@ -42,19 +55,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php">
+        <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="518" column="37" lean-forward="true" selection-start-line="518" selection-start-column="37" selection-end-line="518" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php">
+        <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestValidation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="742" lean-forward="true" selection-start-line="742" selection-end-line="742" />
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#35#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="947">
+              <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,6 +100,7 @@
       <find>setProductConvenienceFee</find>
       <find>product_name</find>
       <find>setProductCart</find>
+      <find>allowed_bin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,15 +122,15 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/config/sslcommerz.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestValidation.php" />
-        <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/composer.json" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzServiceProvider.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" />
         <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php" />
+        <option value="$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php" />
       </list>
     </option>
   </component>
@@ -307,12 +333,12 @@
       <workItem from="1591076142948" duration="1809000" />
       <workItem from="1591160806880" duration="4121000" />
       <workItem from="1592991791529" duration="22000" />
-      <workItem from="1593923826213" duration="4259000" />
+      <workItem from="1593923826213" duration="7638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83131000" />
+    <option name="totallyTimeSpent" value="86510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -325,7 +351,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -335,7 +361,7 @@
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -481,23 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestValidation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#35#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/sslcommerz/checkout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -529,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="742" lean-forward="true" selection-start-line="742" selection-end-line="742" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -543,22 +545,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php">
+    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="518" column="37" lean-forward="true" selection-start-line="518" selection-start-column="37" selection-end-line="518" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerz.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="833">
           <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
             <element signature="e#35#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/SSLCommerz/src/SSLCommerzRequestValidation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#35#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SSLCommerzController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

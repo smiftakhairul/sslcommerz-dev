@@ -70,6 +70,21 @@ trait SSLCommerzRequestField
             'vat',
             'discount_amount',
             'convenience_fee',
+
+            'hours_till_departure',
+            'flight_type',
+            'pnr',
+            'journey_from_to',
+            'third_party_booking',
+
+            'hotel_name',
+            'length_of_stay',
+            'check_in_time',
+            'hotel_city',
+
+            'product_type',
+            'topup_number',
+            'country_topup'
         ],
         'additional_information' => [
             'value_a',

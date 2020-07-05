@@ -54,7 +54,13 @@ class SSLCommerzController extends Controller
             'value_d' => 'CPT-112-D',
         ]);
 
-        $sslcommerz->setEmiOption(1);
+        $sslcommerz->setEmiOption(0);
+
+        $sslcommerz->setEmiInformation([
+            'emi_max_inst_option' => '10',
+            'emi_selected_inst' => '10',
+            'emi_allow_only' => 1,
+        ]);
 
         $sslcommerz->setProductInformation([
             'product_name' => 'Computer',
@@ -134,7 +140,10 @@ class SSLCommerzController extends Controller
         $sslcommerz->setProductInformation([
             'product_name' => 'Computer',
             'product_category' => 'Goods',
-            'product_profile' => 'physical-goods',
+            'product_profile' => 'telecom-vertical',
+            'product_type' => 'asdfasdf',
+            'topup_number' => '345348059834',
+            'country_topup' => '40953490'
         ]);
 
         $sslcommerz->setCart([
