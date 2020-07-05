@@ -62,16 +62,16 @@ class SSLCommerzController extends Controller
             'product_profile' => 'physical-goods',
         ]);
 
-        $sslcommerz->setProductCart([
+        $sslcommerz->setCart([
             ['product' => 'Laptop X', 'amount' => '2000.00'],
             ['product' => 'Laptop Y', 'amount' => '4000.00'],
             ['product' => 'Laptop Z', 'amount' => '8000.00'],
         ]);
 
         $sslcommerz->setProductAmount('1000');
-        $sslcommerz->setProductVat('100');
-        $sslcommerz->setProductDiscountAmount('0');
-        $sslcommerz->setProductConvenienceFee('50');
+        $sslcommerz->setVat('100');
+        $sslcommerz->setDiscountAmount('0');
+        $sslcommerz->setConvenienceFee('50');
 
         $response = $sslcommerz->initPayment($sslcommerz);
 
@@ -97,6 +97,7 @@ class SSLCommerzController extends Controller
         $sslcommerz->setSuccessUrl(route('sslcommerz.success'));
         $sslcommerz->setFailUrl(route('sslcommerz.fail'));
         $sslcommerz->setCancelUrl(route('sslcommerz.cancel'));
+        $sslcommerz->setTranId('ikram-1421447042');
 
         $sslcommerz->setCustomerInformation([
             'cus_name' => 'John Doe',
@@ -109,8 +110,6 @@ class SSLCommerzController extends Controller
             'cus_country' => 'Bangladesh',
             'cus_phone' => '+8801919001122',
         ]);
-
-        $sslcommerz->setTranId('ikram-1421447042');
 
         $sslcommerz->setShipmentInformation([
             'ship_name' => 'Store Test',
@@ -138,16 +137,16 @@ class SSLCommerzController extends Controller
             'product_profile' => 'physical-goods',
         ]);
 
-        $sslcommerz->setProductCart([
+        $sslcommerz->setCart([
             ['product' => 'Laptop X', 'amount' => '2000.00'],
             ['product' => 'Laptop Y', 'amount' => '4000.00'],
             ['product' => 'Laptop Z', 'amount' => '8000.00'],
         ]);
 
         $sslcommerz->setProductAmount('1000');
-        $sslcommerz->setProductVat('100');
-        $sslcommerz->setProductDiscountAmount('0');
-        $sslcommerz->setProductConvenienceFee('50');
+        $sslcommerz->setVat('100');
+        $sslcommerz->setDiscountAmount('0');
+        $sslcommerz->setConvenienceFee('50');
 
         $response = $sslcommerz->initPayment($sslcommerz);
 

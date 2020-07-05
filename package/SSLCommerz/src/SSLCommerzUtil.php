@@ -697,7 +697,7 @@ class SSLCommerzUtil
         return $this->product_information['cart'] ?? [];
     }
 
-    public function setProductCart(array $data)
+    public function setCart(array $data)
     {
         $this->product_information['cart'] = $data;
         return true;
@@ -719,7 +719,7 @@ class SSLCommerzUtil
         return $this->product_information['vat'] ?? null;
     }
 
-    public function setProductVat($amount)
+    public function setVat($amount)
     {
         $this->product_information['vat'] = $amount;
         return true;
@@ -730,7 +730,7 @@ class SSLCommerzUtil
         return $this->product_information['discount_amount'] ?? null;
     }
 
-    public function setProductDiscountAmount($amount)
+    public function setDiscountAmount($amount)
     {
         $this->product_information['discount_amount'] = $amount;
         return true;
@@ -741,7 +741,7 @@ class SSLCommerzUtil
         return $this->product_information['convenience_fee'] ?? null;
     }
 
-    public function setProductConvenienceFee($amount)
+    public function setConvenienceFee($amount)
     {
         $this->product_information['convenience_fee'] = $amount;
         return true;
